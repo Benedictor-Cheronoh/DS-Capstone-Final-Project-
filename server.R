@@ -1,3 +1,6 @@
+library(shiny)
+
+# Load Data
 Server(function(input, output) {
 Output & input_file <-renderTable({
 File_to_read = input&file
